@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-orange-600 h-20"><!-- nav-->
+        <nav class="flex justify-between text-xs list-none pt-6 pl-6 pr-6">
+            <li><a href="#" class="text-base">Home</a></li>
+            <div class="flex">
+                <li><a href="#" class="border-2 border-white p-2 rounded-xl mr-4 hover:bg-purple-700">Sign In</a></li>
+                <li><a href="#" class="bg-gray-100 text-black p-2 rounded-xl mr-1">Basket</a></li>
+                <li><a href="#" class="bg-gray-100 text-black p-2 rounded-xl">Checkout</a></li>
+            </div>
+        </nav>
+    </div>
+
+<form class="shadow-md w-96 m-auto mt-8"><!-- payment wrapper -->
+    <div class="ml-8 pt-4 pb-4">
+        <div>
+            <label class="tracking-wide">Card Number</label>
+            <br>
+            <input type="number" class="mt-1 w-80 rounded-md border-2 hover:border-rose-200">
+        </div>
+        <div class="flex">
+            <div class="mt-4">
+                <label class="tracking-wide">Sort Code</label>
+                <br>
+                <input type="number" class="w-48 mt-1 rounded-md border-2 hover:border-rose-200">
+            </div>
+            <div class="ml-4 mt-4">
+                <label class="tracking-wide">Security Code</label>
+                <br>
+                <input type="number" class="w-28 mt-1 rounded-md border-2 hover:border-rose-200">
+            </div>
+        </div>
+        <div class="mt-4">
+            <label class="tracking-wide">Name on Card</label>
+            <br>
+            <input type="text" class="mt-1 w-80 rounded-md border-2 hover:border-rose-200">
+        </div>
+        <div class="mt-4">
+            <div class="bg-rose-600 w-20 rounded-md drop-shadow text-center hover:bg-rose-700">
+                <a href="#" class="text-white block hover:shadow-xl">Submit</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+</body>
+</html>
